@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Escolar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Biblioteca Escolar</h1>
+    <nav>
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('livros')">Livros</button>
+      <button onclick="showPage('alunos')">Alunos</button>
+      <button onclick="showPage('emprestimos')">Empréstimos</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="page">Bem-vindo à Biblioteca Escolar!</section>
+    <section id="livros" class="page hidden">Lista de livros aqui</section>
+    <section id="alunos" class="page hidden">Lista de alunos aqui</section>
+    <section id="emprestimos" class="page hidden">Controle de empréstimos</section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
